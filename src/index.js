@@ -10,9 +10,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const currentYear = 2021;
+const yourName = "Jeffrey Martinez";
+
 ReactDOM.render(
   <div>
-    <h1>Hello World!</h1>
+    <p>Created by {yourName}.</p>
+    <p>Copyright {currentYear}.</p>
   </div>,
   document.getElementById("root")
 );
