@@ -15,8 +15,8 @@ const yourName = "Jeffrey Martinez";
 
 ReactDOM.render(
   <div>
-    <p>Created by {yourName}.</p>
-    <p>Copyright {currentYear}.</p>
+    <p>Created by {yourName}</p>
+    <p>Copyright {currentYear}</p>
   </div>,
   document.getElementById("root")
 );
